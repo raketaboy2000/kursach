@@ -40,11 +40,13 @@ class UserController
             if (User::checkEmailExists($email)) {
                 $errors[] = 'Такой email уже используется';
             }
-            
+
+            print_r($errors);
             if ($errors == false) {
                 // Если ошибок нет
                 // Регистрируем пользователя
                 $result = User::register($name, $email, $password);
+//                header("Location: /user/login");
             }
         }
 
@@ -52,7 +54,7 @@ class UserController
         require_once(ROOT . '/views/user/register.php');
         return true;
     }
-    
+
     /**
      * Action для страницы "Вход на сайт"
      */
@@ -61,10 +63,10 @@ class UserController
         // Переменные для формы
         $email = false;
         $password = false;
-        
+
         // Обработка формы
         if (isset($_POST['submit'])) {
-            // Если форма отправлена 
+            // Если форма отправлена
             // Получаем данные из формы
             $email = $_POST['email'];
             $password = $_POST['password'];
@@ -90,7 +92,7 @@ class UserController
                 // Если данные правильные, запоминаем пользователя (сессия)
                 User::auth($userId);
 
-                // Перенаправляем пользователя в закрытую часть - кабинет 
+                // Перенаправляем пользователя в закрытую часть - кабинет
                 header("Location: /cabinet");
             }
         }
@@ -99,22 +101,4 @@ class UserController
         require_once(ROOT . '/views/user/login.php');
         return true;
     }
-
-    /**
-     * Удаляем данные о пользователе из сессии
-     */
-    public function actionLogout()
-    {
-        // Стартуем сессию
-        if(!isset($_SESSION)){
-            session_start();
-        }
-        
-        // Удаляем информацию о пользователе из сессии
-        unset($_SESSION["user"]);
-        
-        // Перенаправляем пользователя на главную страницу
-        header("Location: /");
-    }
-
 }

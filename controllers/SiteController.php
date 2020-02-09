@@ -54,8 +54,10 @@ class SiteController
             if ($errors == false) {
                 // Если ошибок нет
                 // Отправляем письмо администратору 
-                $adminEmail = 'php.start@mail.ru';
-                $message = "Текст: {$userText}. От {$userEmail}";
+                $adminEmail = 'raketabo2000work@yandex.ru';
+                $message = "
+                От {$userEmail}<br>
+                Текст: {$userText}. ";
                 $subject = 'Тема письма';
                 $result = mail($adminEmail, $subject, $message);
                 $result = true;
