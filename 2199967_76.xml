@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+		<yml_catalog date="2020-02-04 08:02">
+		<shop>
+			<name>l978888b.beget.tech</name>
+			<company>l978888b.beget.tech</company>
+			<url>http://l978888b.beget.tech/</url>
+		<currencies>
+			<currency id="RUR" rate="1" />
+		</currencies>
+		<categories>
+			<category id="1">Товары в наличии</category>
+		</categories>
+		<offers>
+			<offer id="1661130315" available="true">
+			       <url>http://l978888b.beget.tech/user/login/</url>
+			       <price>97888824</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/%20Notice:%20Undefined%20variable:%20product%20in%20/home/l/l978888b/kursach24/public_html/views/layouts/header.php%20on%20line%2012%20.jpg</picture>
+				<delivery>true</delivery>
+			       <name> Notice: Undefined variable: product in /home/l/l978888b/kursach24/public_html/views/layouts/header.php on line 10 </name>
+				<description> Notice: Undefined variable: product in /home/l/l978888b/kursach24/public_html/views/layouts/header.php on line 10 </description>
+			</offer>
+			<offer id="2596287203" available="true">
+			       <url>http://l978888b.beget.tech/product/30</url>
+			       <price>299</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/30.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РџС РѕС‚РµРёРЅС‡РёРє Р±Р°РЅР°РЅРѕРІС‹Р№</name>
+				<description>РџС РѕС‚РµРёРЅС‡РёРє Р±Р°РЅР°РЅРѕРІС‹Р№</description>
+			</offer>
+			<offer id="1525973321" available="true">
+			       <url>http://l978888b.beget.tech/product/28</url>
+			       <price>299</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/28.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РџС РѕС‚РµРёРЅС‡РёРє РєР»СѓР±РЅРёС‡РЅС‹Р№</name>
+				<description>РџС РѕС‚РµРёРЅС‡РёРє РєР»СѓР±РЅРёС‡РЅС‹Р№</description>
+			</offer>
+			<offer id="2474854393" available="true">
+			       <url>http://l978888b.beget.tech/product/25</url>
+			       <price>125</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/25.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ Р±Р°РЅР°РЅ Рё С€РѕРєРѕР»Р°Рґ</name>
+				<description>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ Р±Р°РЅР°РЅ Рё С€РѕРєРѕР»Р°Рґ</description>
+			</offer>
+			<offer id="2614800183" available="true">
+			       <url>http://l978888b.beget.tech/product/26</url>
+			       <price>89</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/26.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РљС СѓР°СЃСЃР°РЅ</name>
+				<description>РљС СѓР°СЃСЃР°РЅ</description>
+			</offer>
+			<offer id="2134114419" available="true">
+			       <url>http://l978888b.beget.tech/product/29</url>
+			       <price>335</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/29.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РџС РѕС‚РµРёРЅС‡РёРє РѕС РµС…РѕРІС‹Р№</name>
+				<description>РџС РѕС‚РµРёРЅС‡РёРє РѕС РµС…РѕРІС‹Р№</description>
+			</offer>
+			<offer id="2357043500" available="true">
+			       <url>http://l978888b.beget.tech/product/27</url>
+			       <price>129</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/27.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р§РёР·РєРµР№Рє РІРёС€РЅС‘РІС‹Р№</name>
+				<description>Р§РёР·РєРµР№Рє РІРёС€РЅС‘РІС‹Р№</description>
+			</offer>
+			<offer id="3215721431" available="true">
+			       <url>http://l978888b.beget.tech/product/1</url>
+			       <price>289</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/1.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р¤РёР»Р°РґРµР»СЊС„РёСЏ РєР»Р°СЃСЃРёС‡РµСЃРєР°СЏ</name>
+				<description>Р¤РёР»Р°РґРµР»СЊС„РёСЏ РєР»Р°СЃСЃРёС‡РµСЃРєР°СЏ</description>
+			</offer>
+			<offer id="1990642703" available="true">
+			       <url>http://l978888b.beget.tech/product/3</url>
+			       <price>389</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/3.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р¤РёР»Р°РґРµР»СЊС„РёСЏ СЃ СѓРіС РµРј</name>
+				<description>Р¤РёР»Р°РґРµР»СЊС„РёСЏ СЃ СѓРіС РµРј</description>
+			</offer>
+			<offer id="3500646091" available="true">
+			       <url>http://l978888b.beget.tech/product/2</url>
+			       <price>279</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/2.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РљР°Р»РёС„РѕС РЅРёСЏ СЃ Р»РѕСЃРѕСЃРµРј</name>
+				<description>РљР°Р»РёС„РѕС РЅРёСЏ СЃ Р»РѕСЃРѕСЃРµРј</description>
+			</offer>
+			<offer id="1228144578" available="true">
+			       <url>http://l978888b.beget.tech/product/14</url>
+			       <price>198</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/14.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЁР°СѓС РјР° СЃ РєСѓС РёС†РµР№ Рё СЃС‹С РѕРј</name>
+				<description>РЁР°СѓС РјР° СЃ РєСѓС РёС†РµР№ Рё СЃС‹С РѕРј</description>
+			</offer>
+			<offer id="2786147036" available="true">
+			       <url>http://l978888b.beget.tech/product/15</url>
+			       <price>199</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/15.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЁР°СѓС РјР° СЃ РіРѕРІСЏРґРёРЅРѕР№</name>
+				<description>РЁР°СѓС РјР° СЃ РіРѕРІСЏРґРёРЅРѕР№</description>
+			</offer>
+			<offer id="251958656" available="true">
+			       <url>http://l978888b.beget.tech/product/13</url>
+			       <price>149</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/13.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЁР°СѓС РјР° СЃ РєСѓС РёС†РµР№</name>
+				<description>РЁР°СѓС РјР° СЃ РєСѓС РёС†РµР№</description>
+			</offer>
+			<offer id="201369499" available="true">
+			       <url>http://l978888b.beget.tech/product/11</url>
+			       <price>175</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/11.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ СЃ РєСѓС РёС†РµР№</name>
+				<description>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ СЃ РєСѓС РёС†РµР№</description>
+			</offer>
+			<offer id="1976041120" available="true">
+			       <url>http://l978888b.beget.tech/product/12</url>
+			       <price>175</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/12.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ СЃ СЃР°Р»СЏРјРё</name>
+				<description>РЎСЌРЅРґРІРёС‡ РІ РєС СѓР°СЃСЃР°РЅРµ СЃ СЃР°Р»СЏРјРё</description>
+			</offer>
+			<offer id="1056576538" available="true">
+			       <url>http://l978888b.beget.tech/product/10</url>
+			       <price>247</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/10.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎСЌРЅРґРІРёС‡ СЃ Р»РѕСЃРѕСЃРµРј 15 СЃРј</name>
+				<description>РЎСЌРЅРґРІРёС‡ СЃ Р»РѕСЃРѕСЃРµРј 15 СЃРј</description>
+			</offer>
+			<offer id="2083299432" available="true">
+			       <url>http://l978888b.beget.tech/product/20</url>
+			       <price>95</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/20.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РљСѓС РёРЅС‹Р№ Р±СѓР»СЊРѕРЅ</name>
+				<description>РљСѓС РёРЅС‹Р№ Р±СѓР»СЊРѕРЅ</description>
+			</offer>
+			<offer id="2547529248" available="true">
+			       <url>http://l978888b.beget.tech/product/19</url>
+			       <price>149</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/19.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎРѕР»СЏРЅРєР°</name>
+				<description>РЎРѕР»СЏРЅРєР°</description>
+			</offer>
+			<offer id="2463570068" available="true">
+			       <url>http://l978888b.beget.tech/product/4</url>
+			       <price>139</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/4.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р¦РµР·Р°С СЊ</name>
+				<description>Р¦РµР·Р°С СЊ</description>
+			</offer>
+			<offer id="2687201661" available="true">
+			       <url>http://l978888b.beget.tech/product/6</url>
+			       <price>99</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/6.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РњР°С РіР°С РёС‚Р°</name>
+				<description>РњР°С РіР°С РёС‚Р°</description>
+			</offer>
+			<offer id="1345516360" available="true">
+			       <url>http://l978888b.beget.tech/product/5</url>
+			       <price>139</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/5.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р СѓСЃСЃРєР°СЏ</name>
+				<description>Р СѓСЃСЃРєР°СЏ</description>
+			</offer>
+			<offer id="2438927770" available="true">
+			       <url>http://l978888b.beget.tech/product/23</url>
+			       <price>248</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/23.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎС‚С РёРїСЃС‹ РїРѕ-С‚РµС…Р°СЃСЃРєРё</name>
+				<description>РЎС‚С РёРїСЃС‹ РїРѕ-С‚РµС…Р°СЃСЃРєРё</description>
+			</offer>
+			<offer id="269401632" available="true">
+			       <url>http://l978888b.beget.tech/product/24</url>
+			       <price>178</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/24.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РљР°С С‚РѕС„РµР»СЊ РїРѕ-РґРµС РµРІРµРЅСЃРєРё РїРѕ-С СѓСЃСЃРєРё</name>
+				<description>РљР°С С‚РѕС„РµР»СЊ РїРѕ-РґРµС РµРІРµРЅСЃРєРё РїРѕ-С СѓСЃСЃРєРё</description>
+			</offer>
+			<offer id="2158977850" available="true">
+			       <url>http://l978888b.beget.tech/product/22</url>
+			       <price>248</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/22.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РљР°С С‚РѕС„РµР»СЊ РїРѕ-РґРµС РµРІРµРЅСЃРєРё РїРѕ-С‚РµС…Р°СЃСЃРєРё</name>
+				<description>РљР°С С‚РѕС„РµР»СЊ РїРѕ-РґРµС РµРІРµРЅСЃРєРё РїРѕ-С‚РµС…Р°СЃСЃРєРё</description>
+			</offer>
+			<offer id="2008286972" available="true">
+			       <url>http://l978888b.beget.tech/product/18</url>
+			       <price>100</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/18.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РћРІРѕС‰РЅРѕР№</name>
+				<description>РћРІРѕС‰РЅРѕР№</description>
+			</offer>
+			<offer id="3264021831" available="true">
+			       <url>http://l978888b.beget.tech/product/16</url>
+			       <price>299</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/16.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РЎР°Р»Р°С‚ СЃ Р»РѕСЃРѕСЃРµРј</name>
+				<description>РЎР°Р»Р°С‚ СЃ Р»РѕСЃРѕСЃРµРј</description>
+			</offer>
+			<offer id="735960686" available="true">
+			       <url>http://l978888b.beget.tech/product/17</url>
+			       <price>235</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/17.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р¦РµР·Р°С СЊ</name>
+				<description>Р¦РµР·Р°С СЊ</description>
+			</offer>
+			<offer id="3489623634" available="true">
+			       <url>http://l978888b.beget.tech/product/9</url>
+			       <price>248</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/9.jpg</picture>
+				<delivery>true</delivery>
+			       <name>Р‘СѓС РіРµС  СЃ Р»РѕСЃРѕСЃРµРј</name>
+				<description>Р‘СѓС РіРµС  СЃ Р»РѕСЃРѕСЃРµРј</description>
+			</offer>
+			<offer id="3764912458" available="true">
+			       <url>http://l978888b.beget.tech/product/7</url>
+			       <price>292</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/7.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РўРµС…Р°СЃ Р‘РёС„</name>
+				<description>РўРµС…Р°СЃ Р‘РёС„</description>
+			</offer>
+			<offer id="1027874761" available="true">
+			       <url>http://l978888b.beget.tech/product/8</url>
+			       <price>248</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>1</categoryId>
+				<picture>https://kursach24.000webhostapp.com/upload/images/products/8.jpg</picture>
+				<delivery>true</delivery>
+			       <name>РўРµС…Р°СЃ Р§РёРєРµРЅ</name>
+				<description>РўРµС…Р°СЃ Р§РёРєРµРЅ</description>
+			</offer>
+		</offers>
+</shop>
+</yml_catalog>
