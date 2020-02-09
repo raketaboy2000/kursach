@@ -5,7 +5,8 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-
+                <p class="pull-left">Copyright © 2019 - <? echo (date("Y"))?></p>
+                <p class="pull-right"></p>
             </div>
         </div>
     </div>
@@ -21,17 +22,6 @@
 <script src="/template/js/price-range.js"></script>
 <script src="/template/js/jquery.prettyPhoto.js"></script>
 <script src="/template/js/main.js"></script>
-
-    <script src="/template/js/popper.min.js"></script>
-    <script src="/template/js/tether.min.js"></script>
-    <script src="/template/js/bootstrap.min.js"></script>
-    <script src="/template/js/jquery.mb.ytplayer.min.js"></script>
-    <script src="/template/js/jquery.mb.vimeo_player.js"></script>
-    <script src="/template/js/bootstrap-carousel-swipe.js"></script>
-    <script src="/template/js/smooth-scroll.js"></script>
-    <script src="/template/js/script.js"></script>
-    <script src="/template/js/script(1).js"></script>
-
 <script>
     $(document).ready(function(){
         $(".add-to-cart").click(function () {

@@ -61,7 +61,6 @@
                                         <br/>
                                         <br/>
                                         <input type="submit" name="submit" class="btn btn-default" value="Оформить" />
-
                                     </form>
                                 </div>
                             </div>

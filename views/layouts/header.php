@@ -5,15 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-
-        <meta property="og:type" content="product">
-        <meta property="og:title" content="<?php echo $product['name']; ?>">
-        <meta property="og:url" content="https://kursach24.000webhostapp.com/product/<?php echo $product['id']; ?> ">
-        <meta property="og:image" content="https://kursach24.000webhostapp.com/upload/images/products/<?php echo $product['id']; ?>.jpg">
-        <meta property="product:price:amount" content="<?php echo $product['price']; ?>">
-        <meta property="product:price:currency" content="RUB">
-        
-        
         <title>Главная</title>
         <link href="/template/css/bootstrap.min.css" rel="stylesheet">
         <link href="/template/css/font-awesome.min.css" rel="stylesheet">
@@ -22,7 +13,6 @@
         <link href="/template/css/animate.css" rel="stylesheet">
         <link href="/template/css/main.css" rel="stylesheet">
         <link href="/template/css/responsive.css" rel="stylesheet">
-
 
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -33,21 +23,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/template/images/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/template/images/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="/template/images/ico/apple-touch-icon-57-precomposed.png">
-<!--        <script src="//code.jivosite.com/widget/MWU0q0Xb37" async></script>-->
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-            ym(57330319, "init", {
-                clickmap:true,
-                trackLinks:true,
-                accurateTrackBounce:true
-            });
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/57330319" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
     </head><!--/head-->
 
     <body>
@@ -61,7 +36,7 @@
                             <div class="col-sm-6">
                                 <div class="contactinfo">
                                     <ul class="nav nav-pills">
-                                        <li><a href="#"><i class="fa fa-phone"></i> +79788490129</a></li>
+                                        <li><a href="#"><i class="fa fa-phone"></i> +7(978)849-01-29</a></li>
                                         <li><a href="#"><i class="fa fa-envelope"></i> raketaboy2000@yandex.ru</a></li>
                                     </ul>
                                 </div>
@@ -96,7 +71,6 @@
                                         </li>
                                         <?php if (User::isGuest()): ?>                                        
                                             <li><a href="/user/login/"><i class="fa fa-lock"></i> Вход</a></li>
-<!--                                            <li><a href="/user/register/"><i class="fa fa-sign-in"></i> Регистрация</a></li>-->
                                         <?php else: ?>
                                             <li><a href="/cabinet/"><i class="fa fa-user"></i> Аккаунт</a></li>
                                             <li><a href="/user/logout/"><i class="fa fa-unlock"></i> Выход</a></li>
@@ -129,7 +103,7 @@
                                                 <li><a href="/cart/">Корзина</a></li> 
                                             </ul>
                                         </li>
-
+                                        <li><a href="/delivery/">Доставка</a></li>
                                         <li><a href="/contacts/">Контакты</a></li>
                                     </ul>
                                 </div>

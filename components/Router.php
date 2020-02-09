@@ -18,8 +18,6 @@ class Router
      */
     public function __construct()
     {
-
-
         // Путь к файлу с роутами
         $routesPath = ROOT . '/config/routes.php';
 

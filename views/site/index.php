@@ -1,6 +1,5 @@
 <?php include ROOT . '/views/layouts/header.php'; ?>
 
-
 <section>
     <div class="container">
         <div class="row">
@@ -33,7 +32,7 @@
                                 <div class="single-products">
                                     <div class="productinfo text-center">
                                         <img src="<?php echo Product::getImage($product['id']); ?>" alt="" />
-                                        <h2><?php echo $product['price']; ?>₽</h2>
+                                        <h2>$<?php echo $product['price']; ?></h2>
                                         <p>
                                             <a href="/product/<?php echo $product['id']; ?>">
                                                 <?php echo $product['name']; ?>
@@ -54,8 +53,8 @@
 
                 <div class="recommended_items"><!--recommended_items-->
                     <h2 class="title text-center">Рекомендуемые товары</h2>
-
-                    <div class="cycle-slideshow"
+                    
+                    <div class="cycle-slideshow" 
                          data-cycle-fx=carousel
                          data-cycle-timeout=5000
                          data-cycle-carousel-visible=3
@@ -63,14 +62,14 @@
                          data-cycle-slides="div.item"
                          data-cycle-prev="#prev"
                          data-cycle-next="#next"
-                         >
+                         >                        
                              <?php foreach ($sliderProducts as $sliderItem): ?>
                             <div class="item">
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
                                             <img src="<?php echo Product::getImage($sliderItem['id']); ?>" alt="" />
-                                            <h2><?php echo $sliderItem['price']; ?>₽</h2>
+                                            <h2>$<?php echo $sliderItem['price']; ?></h2>
                                             <a href="/product/<?php echo $sliderItem['id']; ?>">
                                                 <?php echo $product['name']; ?>
                                             </a>

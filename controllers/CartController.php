@@ -77,7 +77,7 @@ class CartController
     /**
      * Action для страницы "Оформление покупки"
      */
-    public function actionCheckout($id)
+    public function actionCheckout()
     {
         // Получием данные из корзины      
         $productsInCart = Cart::getProducts();

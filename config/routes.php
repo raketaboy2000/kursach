@@ -39,7 +39,7 @@ return array(
     'admin' => 'admin/index',
     // О магазине
     'contacts' => 'site/contact',
-    'about' => 'site/about',
+    'delivery' => 'site/delivery',
     // Главная страница
     'index.php' => 'site/index', // actionIndex в SiteController
     '' => 'site/index', // actionIndex в SiteController
