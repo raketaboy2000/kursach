@@ -17,4 +17,4 @@ RewriteRule ^(.*)$ index.php
 #RewriteCond %{REQUEST_FILENAME} -l [OR]
 #RewriteCond %{REQUEST_FILENAME} -d
 #RewriteRule ^.*$ - [L]
-#RewriteRule ^.*$ index.php [L]
+#RewriteRule ^.*$ stocks.php [L]

@@ -40,7 +40,8 @@ return array(
     // О магазине
     'contacts' => 'site/contact',
     'delivery' => 'site/delivery',
+
     // Главная страница
-    'index.php' => 'site/index', // actionIndex в SiteController
+    'stocks.php' => 'site/index', // actionIndex в SiteController
     '' => 'site/index', // actionIndex в SiteController
 );

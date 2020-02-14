@@ -523,5 +523,15 @@ ul.sub-menu{
 .product-information span span{
 	float: none;
 }
+	/*stocks*/
+.container_item{
+	text-align: center;
+	display: block;
+	}
+.container_item__block{
+	padding-left: 0px;
+	margin: 0 auto;
+	max-width: 220px;
+}
 
 }

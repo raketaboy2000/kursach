@@ -20,6 +20,8 @@ class SiteController
         // Список товаров для слайдера
         $sliderProducts = Product::getRecommendedProducts();
 
+        $stocksList = Stocks::getLatestStocks(6);
+
         // Подключаем вид
         require_once(ROOT . '/views/site/index.php');
         return true;
@@ -76,5 +78,18 @@ class SiteController
         require_once(ROOT . '/views/site/delivery.php');
         return true;
     }
+    public function actionStocks($stockId)
+    {
+        // Список категорий для левого меню
+        $categories = Category::getCategoriesList();
+
+        // Получаем инфомрацию о товаре
+        $stocks = Stocks::getLatestStocks($stockId);
+        // Подключаем вид
+        require_once(ROOT . '/views/stocks/view.php');
+        return true;
+    }
+
+
 
 }

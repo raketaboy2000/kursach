@@ -29,7 +29,7 @@
                         <p>Артикул</p>
                         <input type="text" name="code" placeholder="" value="<?php echo $product['code']; ?>">
 
-                        <p>Стоимость, $</p>
+                        <p>Стоимость, ₽</p>
                         <input type="text" name="price" placeholder="" value="<?php echo $product['price']; ?>">
 
                         <p>Категория</p>
@@ -46,8 +46,7 @@
                         
                         <br/><br/>
 
-                        <p>Производитель</p>
-                        <input type="text" name="brand" placeholder="" value="<?php echo $product['brand']; ?>">
+
 
                         <p>Изображение товара</p>
                         <img src="<?php echo Product::getImage($product['id']); ?>" width="200" alt="" />

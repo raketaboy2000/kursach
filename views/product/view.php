@@ -40,14 +40,14 @@
                                 <h2><?php echo $product['name']; ?></h2>
                                 <p>Код товара: <?php echo $product['code']; ?></p>
                                 <span>
-                                    <span>US $<?php echo $product['price']; ?></span>
+                                    <span><?php echo $product['price']; ?>₽</span>
                                     <a href="#" data-id="<?php echo $product['id']; ?>"
                                        class="btn btn-default add-to-cart">
                                         <i class="fa fa-shopping-cart"></i>В корзину
                                     </a>
                                 </span>
                                 <p><b>Наличие:</b> <?php echo Product::getAvailabilityText($product['availability']); ?></p>
-                                <p><b>Производитель:</b> <?php echo $product['brand']; ?></p>
+
                             </div><!--/product-information-->
                         </div>
                     </div>

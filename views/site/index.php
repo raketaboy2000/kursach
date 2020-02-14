@@ -32,7 +32,7 @@
                                 <div class="single-products">
                                     <div class="productinfo text-center">
                                         <img src="<?php echo Product::getImage($product['id']); ?>" alt="" />
-                                        <h2>$<?php echo $product['price']; ?></h2>
+                                        <h2><?php echo $product['price']; ?>₽</h2>
                                         <p>
                                             <a href="/product/<?php echo $product['id']; ?>">
                                                 <?php echo $product['name']; ?>
@@ -69,11 +69,11 @@
                                     <div class="single-products">
                                         <div class="productinfo text-center">
                                             <img src="<?php echo Product::getImage($sliderItem['id']); ?>" alt="" />
-                                            <h2>$<?php echo $sliderItem['price']; ?></h2>
+                                            <h2>$<?php echo $sliderItem['price']; ?>₽</h2>
                                             <a href="/product/<?php echo $sliderItem['id']; ?>">
                                                 <?php echo $product['name']; ?>
                                             </a>
-                                            <br/><br/>
+                                            <br/><br/>ё
                                             <a href="#" class="btn btn-default add-to-cart" data-id="<?php echo $sliderItem['id']; ?>"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
                                         <?php if ($sliderItem['is_new']): ?>
@@ -91,6 +91,33 @@
                     <a class="right recommended-item-control" id="next"  href="#recommended-item-carousel" data-slide="next">
                         <i class="fa fa-angle-right"></i>
                     </a>
+
+                </div>
+
+                <div class="features_items"><!--features_items-->
+                    <h2 class="title text-center">Акции</h2>
+
+                    <?php foreach ($stocksList as $stock): ?>
+                        <div class="col-sm-4">
+                            <div class="stock-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="<?php echo Stocks::getImage($stock['id']); ?>" alt="<?php echo $stock['name']; ?>" />
+
+                                        <p>
+
+                                                <h4><?php echo $stock['name']; ?></h4>
+                                            </a>
+                                            <?php echo $stock['short_desc']; ?>
+                                        </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
 
                 </div>
             </div><!--/recommended_items-->
