@@ -13,20 +13,22 @@ class User
      * @param string $password <p>Пароль</p>
      * @return boolean <p>Результат выполнения метода</p>
      */
-    public static function register($name, $email, $password)
+    public static function register($name, $email, $password, $surname)
     {
         // Соединение с БД
         $db = Db::getConnection();
 
         // Текст запроса к БД
-        $sql = 'INSERT INTO user (name, email, password) '
-                . 'VALUES (:name, :email, :password)';
+        $sql = 'INSERT INTO user (name, email, password, surname) '
+                . 'VALUES (:name, :email, :password, :surname)';
 
         // Получение и возврат результатов. Используется подготовленный запрос
         $result = $db->prepare($sql);
         $result->bindParam(':name', $name, PDO::PARAM_STR);
         $result->bindParam(':email', $email, PDO::PARAM_STR);
         $result->bindParam(':password', $password, PDO::PARAM_STR);
+        $result->bindParam(':surname', $surname, PDO::PARAM_STR);
+
         return $result->execute();
     }
 
@@ -44,7 +46,7 @@ class User
 
         // Текст запроса к БД
         $sql = "UPDATE user 
-            SET name = :name, password = :password 
+            SET name = :name, password = :password
             WHERE id = :id";
 
         // Получение и возврат результатов. Используется подготовленный запрос

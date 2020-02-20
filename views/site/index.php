@@ -53,8 +53,8 @@
 
                 <div class="recommended_items"><!--recommended_items-->
                     <h2 class="title text-center">Рекомендуемые товары</h2>
-                    
-                    <div class="cycle-slideshow" 
+
+                    <div class="cycle-slideshow"
                          data-cycle-fx=carousel
                          data-cycle-timeout=5000
                          data-cycle-carousel-visible=3
@@ -62,7 +62,7 @@
                          data-cycle-slides="div.item"
                          data-cycle-prev="#prev"
                          data-cycle-next="#next"
-                         >                        
+                         >
                              <?php foreach ($sliderProducts as $sliderItem): ?>
                             <div class="item">
                                 <div class="product-image-wrapper">
@@ -73,7 +73,7 @@
                                             <a href="/product/<?php echo $sliderItem['id']; ?>">
                                                 <?php echo $product['name']; ?>
                                             </a>
-                                            <br/><br/>ё
+                                            <br/><br/>
                                             <a href="#" class="btn btn-default add-to-cart" data-id="<?php echo $sliderItem['id']; ?>"><i class="fa fa-shopping-cart"></i>В корзину</a>
                                         </div>
                                         <?php if ($sliderItem['is_new']): ?>
